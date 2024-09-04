@@ -23,6 +23,7 @@ function rand( min, max ) {
 function randInt( min, max ) {
 	return Math.floor( min + Math.random() * ( max - min + 1 ) );
 };
+// Thêm lớp hover khi người dùng hover vào phần tử
 
 function Dot() {
 	this.x = width / 2;

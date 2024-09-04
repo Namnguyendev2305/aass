@@ -12,7 +12,7 @@ body {
   font-weight: 400;
   font-size: 13px;
   font-family: 'Mulish', sans-serif;
-  color: #fff;
+
 }
 
 ul,
@@ -49,6 +49,12 @@ img {
 
   overflow: hidden;
 }
+.hid{
+  color: black;
+}
+.hovered {
+  color: white;
+}
 
 .row {
   margin-right: -15px;
@@ -68,7 +74,6 @@ img {
 
 /*tg mira custom*/
 #background {
-  background-color: black;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -76,6 +81,7 @@ img {
   top: 0;
   z-index: 1;
   pointer-events: none;
+
 }
 
 #background canvas {
